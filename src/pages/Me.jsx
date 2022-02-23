@@ -40,7 +40,7 @@ function Me() {
         getBookmark();
         async function fetcher(){
             await axios.get('https://cookstar.herokuapp.com/me',config).then(res=>{
-                console.log(res.data); setRes(res.data)}).catch(err=>{alert('Unauthorized !! Please Login Jay');
+                console.log(res.data); setRes(res.data)}).catch(err=>{alert('Unauthorized !! Please Login ');
                 history.push('/login');});
             }
             fetcher();
@@ -60,8 +60,8 @@ function Me() {
         <div className="me-section">
             <div className="myprofile-container">
                 <div className="profile-info">
-                   (localStorage.getItem('username'))&& <div className="avtar-container">{localStorage.getItem('username').substring(0,1)}  </div>
-                    <h2>{localStorage.getItem('username')}</h2>
+                <div className="avtar-container">{localStorage.getItem('username')?localStorage.getItem('username').substring(0,1):<></>}  </div>
+                    <h2>{localStorage.getItem('username')?localStorage.getItem('username'):<></>}</h2>
                     <Link to="/updateProfile"><button className="edit-btn"><FaRegEdit/></button></Link>
                 </div>
                 <div className="saved-myrecipes-container">
