@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/cookstar/static/css/main.5aa719c2.chunk.css",
-    "main.js": "/cookstar/static/js/main.30969ff7.chunk.js",
-    "main.js.map": "/cookstar/static/js/main.30969ff7.chunk.js.map",
+    "main.css": "/cookstar/static/css/main.c3797c15.chunk.css",
+    "main.js": "/cookstar/static/js/main.4dc12035.chunk.js",
+    "main.js.map": "/cookstar/static/js/main.4dc12035.chunk.js.map",
     "runtime-main.js": "/cookstar/static/js/runtime-main.bf83147e.js",
     "runtime-main.js.map": "/cookstar/static/js/runtime-main.bf83147e.js.map",
     "static/js/2.31b49ccc.chunk.js": "/cookstar/static/js/2.31b49ccc.chunk.js",
     "static/js/2.31b49ccc.chunk.js.map": "/cookstar/static/js/2.31b49ccc.chunk.js.map",
     "index.html": "/cookstar/index.html",
-    "static/css/main.5aa719c2.chunk.css.map": "/cookstar/static/css/main.5aa719c2.chunk.css.map",
+    "static/css/main.c3797c15.chunk.css.map": "/cookstar/static/css/main.c3797c15.chunk.css.map",
     "static/js/2.31b49ccc.chunk.js.LICENSE.txt": "/cookstar/static/js/2.31b49ccc.chunk.js.LICENSE.txt",
     "static/media/logo.07dd7ec9.jpeg": "/cookstar/static/media/logo.07dd7ec9.jpeg",
     "static/media/main-banner.6e7b13c4.jpg": "/cookstar/static/media/main-banner.6e7b13c4.jpg",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.bf83147e.js",
     "static/js/2.31b49ccc.chunk.js",
-    "static/css/main.5aa719c2.chunk.css",
-    "static/js/main.30969ff7.chunk.js"
+    "static/css/main.c3797c15.chunk.css",
+    "static/js/main.4dc12035.chunk.js"
   ]
 }
