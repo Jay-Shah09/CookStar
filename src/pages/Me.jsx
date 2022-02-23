@@ -53,14 +53,14 @@ function Me() {
                 return item;
             }
         }));
-    },[resi,likeValue]);
+    },[resi,likeValue]); 
     
     // const savedCount = bagItems.length + bagItemsUsers.length;
     return (
         <div className="me-section">
             <div className="myprofile-container">
                 <div className="profile-info">
-                    <div className="avtar-container">{localStorage.getItem('username').substring(0,1)}</div>
+                   (localStorage.getItem('username'))&& <div className="avtar-container">{localStorage.getItem('username').substring(0,1)}  </div>
                     <h2>{localStorage.getItem('username')}</h2>
                     <Link to="/updateProfile"><button className="edit-btn"><FaRegEdit/></button></Link>
                 </div>
