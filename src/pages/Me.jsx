@@ -66,8 +66,8 @@ function Me() {
                 </div>
                 <div className="saved-myrecipes-container">
                     <ul>
-                        <li className={myrecipe ? "border-bottom" : ""}><a href="#" onClick={toggleMyRecipe}>My Recipes</a></li>
-                        <li className={saved ? "border-bottom" : ""}><a href="#" onClick={toggleSavedRecipe}>Saved <span></span></a></li>
+                        <li className={myrecipe ? "border-bottom" : ""}><a  onClick={toggleMyRecipe}>My Recipes</a></li>
+                        <li className={saved ? "border-bottom" : ""}><a  onClick={toggleSavedRecipe}>Saved <span></span></a></li>
                     </ul>
                 </div>
             </div>
