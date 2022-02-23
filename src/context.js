@@ -17,7 +17,7 @@ const ContextAPI = ({children})=>{
 
     useEffect(()=>{
         async function fetches(){
-            const result = await axios.get('http://localhost:3001/userRecipe');
+            const result = await axios.get('https://cookstar.herokuapp.com/userRecipe');
             setUserRecipes(result.data);
         }
         fetches();

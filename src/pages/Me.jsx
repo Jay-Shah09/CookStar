@@ -33,13 +33,13 @@ function Me() {
     }
     useEffect(()=>{
         async function getBookmark(){
-            await axios.get('http://localhost:3001/userRecipe').then((response)=>{
+            await axios.get('https://cookstar.herokuapp.com/userRecipe').then((response)=>{
                 setResi(response.data);
             }).catch((err)=>alert(err));
         }
         getBookmark();
         async function fetcher(){
-            await axios.get('http://localhost:3001/me',config).then(res=>{
+            await axios.get('https://cookstar.herokuapp.com/me',config).then(res=>{
                 console.log(res.data); setRes(res.data)}).catch(err=>{alert('Unauthorized !! Please Login Jay');
                 history.push('/login');});
             }

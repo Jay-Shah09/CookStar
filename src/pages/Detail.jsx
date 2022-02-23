@@ -20,7 +20,7 @@ export default function Detail() {
 
     useEffect(()=>{
           function fetcher(){
-             axios.get('http://localhost:3001/userRecipeClick/',{params:{ids:id}}).then((response)=>{
+             axios.get('https://cookstar.herokuapp.com/userRecipeClick/',{params:{ids:id}}).then((response)=>{
                 console.log(response.data[0].image);
                 setDatas(response.data);
             }).catch((err)=>alert('hih'));

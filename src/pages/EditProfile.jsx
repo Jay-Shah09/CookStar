@@ -26,7 +26,7 @@ function EditProfile() {
         })
     }
     useEffect(()=>{
-        axios.post('http://localhost:3001/getUser',inputs).then((response)=>{
+        axios.post('https://cookstar.herokuapp.com/getUser',inputs).then((response)=>{
             setInputs({...inputs,id:response.data[0]._id});
         }).catch((err)=>{alert(err)});
         // axios.post('http://localhost:3001/me',inputs,config).then((response)=>{
