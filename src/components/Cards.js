@@ -23,7 +23,7 @@ const Cards = (props) => {
             setLikeValue(likeValue + 1);
         })
         .catch((err) => {
-          alert("Unauthorized!! Login! First"+err);
+          alert("Unauthorized!! Login! First");
           // history.push("/login");
         });
     }
@@ -33,7 +33,7 @@ const Cards = (props) => {
           setLikeValue(likeValue + 1);
         })
         .catch((err) => {  
-          alert("Unauthorized!! Login--First"+err);
+          alert("Unauthorized!! Login--First");
           // history.push("/login");
         });
     }

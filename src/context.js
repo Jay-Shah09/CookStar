@@ -78,7 +78,7 @@ const ContextAPI = ({children})=>{
             setValue(value + 1);
         })
         .catch((err) => {
-          alert("Unauthorized!! Login! First"+err);
+          alert("Unauthorized!! Login! First");
         });
     }
     const bookmarkHandler = (id) => {       
@@ -87,7 +87,7 @@ const ContextAPI = ({children})=>{
             setValue(value + 1);
         })
         .catch((err) => {
-          alert("Unauthorized!! Login! First"+err);
+          alert("Unauthorized!! Login! First");
         });
     }
     return (

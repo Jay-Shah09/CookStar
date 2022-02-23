@@ -37,7 +37,7 @@ const Register = () => {
     axios.post('https://cookstar.herokuapp.com/register',datas).then((response)=>{
         alert('Successfully Registered');
         history.push('/login');
-    }).catch(err=>{alert(err)});  
+    }).catch(err=>{alert('Email Exist Or password mismatch')});  
   }
       
   const handlechange = (e) => {

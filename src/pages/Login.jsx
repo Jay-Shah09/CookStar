@@ -118,7 +118,7 @@ const Login = () => {
         history.push("/");
       })
       .catch((err) => {
-        alert(err);
+        alert('Invalid Email OR password');
       });
   };
 
