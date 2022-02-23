@@ -288,7 +288,12 @@
   flex-direction: column;
   -webkit-box-align: center;
   align-items: center;
-  width: 122%;
+  width: 115%;
   direction: ltr;
+}
+.iGMNTI {
+  display: flex;
+  flex-direction: row;
+  width: 112%;
 }
   }
