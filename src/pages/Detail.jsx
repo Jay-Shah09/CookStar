@@ -79,7 +79,7 @@ export default function Detail() {
             </div>
             <div className="time-border"></div>
                 <div className="allrecipe-btn-container">
-                    {datas && <button><a href={`/users/info/${datas[0].email}`}>All Recipes of {datas && datas[0].username}</a></button>}
+                    {datas && <button>            <Link to={`/users/info/${datas[0].email}`} className="recipe-btn">All Recipes of {datas && datas[0].username}</Link></button>}
                 </div>
         </div>
     )

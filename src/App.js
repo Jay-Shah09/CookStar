@@ -51,7 +51,7 @@ const  [state,dispatch]=useReducer(reducer,initialState);
         <Route exact path="/users/:id">
           <Detail/>
         </Route>
-        <Route exact path="/users/info/:email">
+        <Route  path="/users/info/:email">
           <UserProfile/>
         </Route>
         <Route path="/login">
