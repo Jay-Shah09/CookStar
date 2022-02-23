@@ -26,7 +26,7 @@ function UserProfile() {
   return (
     <div className="userprofile-container">
 
-      <h1 style={{fontFamily: 'Ephesis',textAlign:'center',padding:'40px'}}>{name}'s All Recipes</h1>
+      <h1 style={{fontFamily: 'Ephesis',textAlign:'center',padding:'40px'}}>HIS/HER All Recipes</h1>
 
       <div className="cards-section">
 
