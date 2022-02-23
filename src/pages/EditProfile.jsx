@@ -36,7 +36,7 @@ function EditProfile() {
 
     const clickHandler = (e) => {
         e.preventDefault();
-        axios.patch('http://localhost:3001/updateProfile',inputs).then((response)=>{
+        axios.patch('https://cookstar.herokuapp.com/updateProfile',inputs).then((response)=>{
             console.log(response.data);
             alert('Your profile is successfully updated');
             // localStorage.setItem('username',inputs.username);
