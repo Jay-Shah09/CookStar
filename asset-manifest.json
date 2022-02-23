@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cookstar/static/css/main.c3797c15.chunk.css",
-    "main.js": "/cookstar/static/js/main.4dc12035.chunk.js",
-    "main.js.map": "/cookstar/static/js/main.4dc12035.chunk.js.map",
+    "main.js": "/cookstar/static/js/main.449a7be7.chunk.js",
+    "main.js.map": "/cookstar/static/js/main.449a7be7.chunk.js.map",
     "runtime-main.js": "/cookstar/static/js/runtime-main.bf83147e.js",
     "runtime-main.js.map": "/cookstar/static/js/runtime-main.bf83147e.js.map",
     "static/js/2.31b49ccc.chunk.js": "/cookstar/static/js/2.31b49ccc.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.bf83147e.js",
     "static/js/2.31b49ccc.chunk.js",
     "static/css/main.c3797c15.chunk.css",
-    "static/js/main.4dc12035.chunk.js"
+    "static/js/main.449a7be7.chunk.js"
   ]
 }
