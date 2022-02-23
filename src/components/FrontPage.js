@@ -43,6 +43,7 @@ const Home = () => {
         {/* <List name="Recent Recipes" /> */}
 
         <List  name="Trending Recipes" />
+        <Link className="aabboouutt" to="/about"><i class="fas fa-address-card"></i> &nbsp;About Us </Link>
       </div>
     </div>
 
