@@ -174,3 +174,13 @@ a{
     color: white;
      padding-bottom: 10px;
 }
+@media screen and (max-width:580){
+  .desc {
+    position: relative;
+    z-index: 9999;
+    margin-top: 75px;
+    font-family: 'Grechen Fuemen', cursive;
+    font-size: 2px;
+}
+
+}

@@ -5,7 +5,7 @@ import '../css/About.css';
 function About() {
 
     return (
-        <div className="About-section">
+        <div  className="About-section">
           <head>
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"/>
             <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" rel="stylesheet"/>
