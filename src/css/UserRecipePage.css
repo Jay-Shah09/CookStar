@@ -13,4 +13,9 @@
     .cards-section{
         max-width: 56%;
     }
+    .iGMNTI {
+        display: flex;
+        flex-direction: row;
+        width: 121%;
+    }
 }

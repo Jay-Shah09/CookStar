@@ -318,17 +318,23 @@
   text-align: center;
   color:#d8123c;
 } 
+.iGMNTI {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  width: 112%;
+}
   }
   @media screen and (min-width: 768px){
     .aabboouutt{
       display: none;
     }
+    .iGMNTI {
+      display: flex;
+      flex-direction: row;
+      padding-left: 10px;
+      width: 112%;
+  }
   
   }
   
-  .iGMNTI {
-    display: flex;
-    flex-direction: row;
-    padding-left: 10px;
-    width: 112%;
-}
