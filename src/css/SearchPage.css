@@ -271,7 +271,7 @@
      left :0px;
      
       /* margin-right: 5px; */
-      width:75%;
+      width:78%;
       height:100%;
       transition: 0.1s linear;
       border-radius: 8px;
@@ -326,3 +326,9 @@
   
   }
   
+  .iGMNTI {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    width: 112%;
+}
